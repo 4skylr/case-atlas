@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Case Atlas · دفتر الحالات</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,460;9..144,560&family=IBM+Plex+Sans+Arabic:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div>
+        <p class="mark">4SKYLR · FIELD DESK</p>
+        <h1>Case Atlas</h1>
+        <p class="lede">جدول ملاحظات في الطب النفسي وعلم الإجرام. مرجع للقراءة، لا للتشخيص ولا للإرشاد القانوني.</p>
+      </div>
+      <div class="tools">
+        <button data-filter="all" class="active">الكل</button>
+        <button data-filter="psychiatry">طب نفسي</button>
+        <button data-filter="criminology">علم إجرام</button>
+        <button id="lang" type="button">EN</button>
+      </div>
+    </header>
+    <div class="bar">
+      <input id="q" placeholder="ابحث في العنوان أو الملاحظة" />
+      <select id="field">
+        <option value="psychiatry">ملاحظة: طب نفسي</option>
+        <option value="criminology">ملاحظة: علم إجرام</option>
+      </select>
+    </div>
+    <div class="stats"><span>الظاهر <b id="count">0</b></span><span>دفترك <b id="mine-count">0</b></span></div>
+    <table>
+      <thead><tr><th>رقم</th><th>المجال</th><th>الملاحظة</th><th>المستوى</th></tr></thead>
+      <tbody id="table"></tbody>
+    </table>
+    <section id="drawer" class="drawer" hidden></section>
+    <section class="composer">
+      <h3>أضف ملاحظة على هذا الجهاز</h3>
+      <input id="title" placeholder="عنوان الملاحظة" />
+      <textarea id="body" placeholder="النص. يُحفظ محليًا فقط."></textarea>
+      <div class="row"><button id="add" type="button">حفظ في الدفتر</button></div>
+      <p class="note">البطاقات المنشورة ملخص دراسي. لا تغني عن مختص، ولا تشرح أي سلوك إجرامي.</p>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

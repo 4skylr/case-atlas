@@ -1,0 +1,60 @@
+:root {
+  --bg: #10110f;
+  --ink: #efe7d6;
+  --muted: #a39886;
+  --line: rgba(239, 231, 214, 0.12);
+  --gold: #c6a15b;
+  --panel: #181a16;
+  --psy: #8ea58a;
+  --cri: #c48b6a;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--ink); }
+body {
+  font-family: "IBM Plex Sans Arabic", "Segoe UI", sans-serif;
+  min-height: 100vh;
+  background-image:
+    radial-gradient(900px 400px at 10% -10%, rgba(198, 161, 91, 0.08), transparent 50%),
+    linear-gradient(180deg, #141510, #10110f 30%);
+}
+.wrap { width: min(1080px, calc(100% - 32px)); margin: 0 auto; padding: 36px 0 64px; }
+header { display: flex; justify-content: space-between; gap: 24px; align-items: end; border-bottom: 1px solid var(--line); padding-bottom: 22px; }
+.mark { letter-spacing: 0.28em; color: var(--gold); font-size: 12px; margin: 0 0 8px; }
+h1 { font-family: "Fraunces", Georgia, serif; font-weight: 460; font-size: 42px; margin: 0; letter-spacing: -0.03em; }
+.lede { max-width: 640px; color: var(--muted); line-height: 1.7; margin: 10px 0 0; }
+.tools { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+button, input, select, textarea {
+  font: inherit; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 10px 14px;
+}
+button { cursor: pointer; }
+button.active, button:hover { border-color: var(--gold); color: var(--gold); }
+input, select, textarea { border-radius: 12px; }
+textarea { width: 100%; min-height: 90px; resize: vertical; }
+.bar { display: grid; grid-template-columns: 1fr 180px; gap: 10px; margin: 22px 0; }
+.stats { display: flex; gap: 18px; color: var(--muted); font-size: 13px; margin-bottom: 14px; }
+.stats b { color: var(--ink); font-weight: 560; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: right; padding: 14px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--muted); font-size: 12px; font-weight: 500; letter-spacing: 0.08em; }
+tr { cursor: pointer; }
+tr:hover td { background: rgba(255,255,255,0.02); }
+.tag { display: inline-block; border: 1px solid var(--line); border-radius: 999px; padding: 2px 8px; font-size: 12px; color: var(--muted); }
+.tag.psychiatry { color: var(--psy); border-color: rgba(142,165,138,0.4); }
+.tag.criminology { color: var(--cri); border-color: rgba(196,139,106,0.45); }
+.drawer {
+  margin-top: 18px; padding: 18px; border: 1px solid var(--line); border-radius: 18px; background: rgba(24,26,22,0.8);
+}
+.drawer h2 { font-family: "Fraunces", Georgia, serif; font-weight: 480; margin: 0 0 8px; }
+.en { color: var(--muted); line-height: 1.7; }
+.composer { margin-top: 28px; display: grid; gap: 10px; }
+.composer h3 { margin: 0; font-size: 16px; }
+.row { display: flex; gap: 8px; }
+.note { color: var(--muted); font-size: 13px; line-height: 1.6; }
+@media (max-width: 720px) {
+  header, .bar, .row { display: grid; }
+  h1 { font-size: 32px; }
+  table, thead, tbody, th, td, tr { display: block; }
+  thead { display: none; }
+  td { border: 0; padding: 4px 0; }
+  tr { padding: 12px 0; border-bottom: 1px solid var(--line); }
+}

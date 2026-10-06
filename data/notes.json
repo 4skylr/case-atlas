@@ -1,0 +1,92 @@
+[
+  {
+    "id": "PSY-01",
+    "field": "psychiatry",
+    "level": "أساس",
+    "title_ar": "ماذا يقصد الطب النفسي",
+    "title_en": "What psychiatry actually is",
+    "body_ar": "فرع طبي يدرس الاضطرابات النفسية من جهة التشخيص والعلاج والوقاية. يفرق عن علم النفس الأكاديمي لأنه ممارسة سريرية، ويفرق عن العلاج النفسي لأن الطبيب النفسي يصف دواءًا ويدخل الحالة العضوية. التشخيص ليس وصمة أخلاقية.",
+    "body_en": "A medical specialty concerned with diagnosing, treating, and preventing mental disorders. It is not the same as academic psychology, and it is not the same as psychotherapy alone: a psychiatrist is a physician. A diagnosis is a clinical description, not a moral verdict."
+  },
+  {
+    "id": "PSY-02",
+    "field": "psychiatry",
+    "level": "أساس",
+    "title_ar": "المزاج والاكتئاب",
+    "title_en": "Mood and depression",
+    "body_ar": "اكتئاب الجسد الكبير نمط مستمر من انخفاض المزاج، فقدان المتعة، واضطراب النوم والشهية والتركيز، لمدة لا تُفسّر بحزن عابر. الاضطراب ثنائي القطب يضيف نوبات من الارتفاع أو الهوس. التقييم للمختص فقط.",
+    "body_en": "Major depression is a sustained pattern of low mood, loss of pleasure, and disturbance of sleep, appetite, and concentration — not ordinary sadness. Bipolar disorder adds episodes of elevation or mania. Assessment belongs to a clinician."
+  },
+  {
+    "id": "PSY-03",
+    "field": "psychiatry",
+    "level": "وسط",
+    "title_ar": "طيف الفصام",
+    "title_en": "The schizophrenia spectrum",
+    "body_ar": "مجموعة اضطرابات يظهر فيها اضطراب التفكير والإدراك، كالضلالات أو الهلاوس، مع تغير في الدافع والوظيفة. ليس انقسام شخصية، وليس عنفًا بحد ذاته. الغالبية من المصابين ليسوا عنيفين.",
+    "body_en": "A group of disorders marked by disturbed thought and perception, such as delusions or hallucinations, plus changes in motivation and function. It is not a split personality, and it is not violence by definition. Most people with the diagnosis are not violent."
+  },
+  {
+    "id": "PSY-04",
+    "field": "psychiatry",
+    "level": "أساس",
+    "title_ar": "القلق والصدمة",
+    "title_en": "Anxiety and trauma",
+    "body_ar": "القلق السريري يتجاوز الخوف المفيد: توتر مستمر، نوبات هلع، أو تجنب يعطل الحياة. اضطراب ما بعد الصدمة يرتبط بحدث مهدد للحياة، ويظهر كاستعادة وتجنب وفرط يقظة. الصدمة لا تعني الضعف.",
+    "body_en": "Clinical anxiety exceeds useful fear: persistent tension, panic, or avoidance that disables life. Post-traumatic stress is tied to a specific threat to life and shows as re-experiencing, avoidance, and hyperarousal. Trauma is not weakness."
+  },
+  {
+    "id": "PSY-05",
+    "field": "psychiatry",
+    "level": "متقدم",
+    "title_ar": "الطب النفسي الشرعي",
+    "title_en": "Forensic psychiatry",
+    "body_ar": "تطبيق الطب النفسي على أسئلة القانون: الأهلية، الخطر، والحاجة للعلاج بدل العقوبة أو معها. الخبير يجيب المحكمة، ولا يحكم مكانها. وجود اضطراب لا يلغي المسؤولية تلقائيًا.",
+    "body_en": "Psychiatry applied to legal questions: fitness, risk, and whether treatment is required alongside or instead of punishment. The expert answers the court and does not replace it. A disorder does not automatically cancel responsibility."
+  },
+  {
+    "id": "CRI-01",
+    "field": "criminology",
+    "level": "أساس",
+    "title_ar": "علم الإجرام ليس علم الجريمة",
+    "title_en": "Criminology is not a how-to",
+    "body_ar": "علم الإجرام يدرس لماذا يُعرّف السلوك جريمة، ومن يُضبط، وكيف تُوزّع العقوبة، وما النظريات التي تفسر الأنماط. هو علم اجتماعي وقانوني. لا يعلّم الارتكاب، ولا يصف أسلوبًا.",
+    "body_en": "Criminology studies why conduct is defined as crime, who is controlled, how punishment is distributed, and which theories explain patterns. It is a social and legal science. It does not teach offending and it does not describe method."
+  },
+  {
+    "id": "CRI-02",
+    "field": "criminology",
+    "level": "أساس",
+    "title_ar": "المدرسة الكلاسيكية",
+    "title_en": "The classical school",
+    "body_ar": "من بيكاريا وبنثام: الإنسان يحسب اللذة والألم، والعقوبة تردع إذا كانت معلومة ومؤكدة ومتناسبة. القانون يكون واضحًا قبل الفعل. هذا أصل فكرة الردع في السياسة الجنائية.",
+    "body_en": "From Beccaria and Bentham: people weigh pleasure against pain, and punishment deters when it is known, certain, and proportionate. Law should be clear before the act. This is the root of deterrence in criminal policy."
+  },
+  {
+    "id": "CRI-03",
+    "field": "criminology",
+    "level": "وسط",
+    "title_ar": "الضغط والضبط والوسم",
+    "title_en": "Strain, control, and labeling",
+    "body_ar": "نظرية الضغط: الفجوة بين الهدف المشروع والوسيلة المتاحة. نظرية الضبط: السؤال ليس لماذا ينحرف الناس، بل لماذا يمتنع أغلبهم. نظرية الوسم: رد المؤسسة قد يصنع هوية المنحرف أكثر مما يصنعها الفعل الأول.",
+    "body_en": "Strain: the gap between approved goals and available means. Control: the question is not why people deviate, but why most do not. Labeling: the institution's reaction can make a deviant identity more than the first act did."
+  },
+  {
+    "id": "CRI-04",
+    "field": "criminology",
+    "level": "وسط",
+    "title_ar": "النشاط الروتيني",
+    "title_en": "Routine activity",
+    "body_ar": "كوهن وفلسون: الحدث يحتاج دافعًا مستعدًا، هدفًا مناسبًا، وغياب رقيب قادر. النظرية تفسر توزيع الفرص لا طبيعة الأشخاص. مفيدة في فهم الوقاية المكانية، لا في صناعة فرصة.",
+    "body_en": "Cohen and Felson: an event needs a motivated actor, a suitable target, and the absence of a capable guardian. The theory explains the distribution of opportunity, not the nature of persons. Useful for place-based prevention, not for making opportunity."
+  },
+  {
+    "id": "CRI-05",
+    "field": "criminology",
+    "level": "متقدم",
+    "title_ar": "الفرق بين الحقلين",
+    "title_en": "Where the two fields meet",
+    "body_ar": "علم الإجرام يسأل عن النمط والمؤسسة. الطب النفسي الشرعي يسأل عن حالة واحدة أمام قانون. الخلط بينهما يُنتج خطأًا شائعًا: اعتبار كل منحرف مريضًا، أو كل مريض خطرًا. الأدلة لا تدعم أيًّا من الجملتين.",
+    "body_en": "Criminology asks about pattern and institution. Forensic psychiatry asks about one person before the law. Mixing them produces a common error: treating every offender as ill, or every patient as a danger. Evidence supports neither sentence."
+  }
+]
