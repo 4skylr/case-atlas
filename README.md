@@ -1,43 +1,35 @@
 <div align="center">
 
-# CASE ATLAS
-### دفتر الحالات · Psychiatry × Criminology
+```
+  ____    _    ____  _____ 
+ / ___|  / \  / ___|| ____|
+| |     / _ \ \___ \|  _| 
+| |___ / ___ \ ___) | |___
+ \____/_/   \_\____/|_____|
 
-طاولة ملاحظات ثنائية اللغة. تبحث، تصفّي، وتضيف ملاحظة خاصة على جهازك.
-مرجع دراسي. ليس تشخيصًا، وليس استشارة، وليس دليلًا لأي سلوك.
+        ATLAS  //  criminology desk
+```
 
-[Open the desk](index.html) · [Lexicon](https://github.com/4skylr/forensic-lexicon) · [Profile](https://github.com/4skylr)
+A notes table. Search, filter, pin a private note in the browser.
+Study reference. Not a diagnosis. Not a method.
+
+[Open the desk](index.html) · [Lexicon](https://github.com/4skylr/forensic-lexicon) · [Chain Notes](https://github.com/4skylr/chain-notes) · [Profile](https://github.com/4skylr)
 
 </div>
 
 ---
 
-## ماذا بالداخل
+## Inside
 
-| الطبقة | الوظيفة |
+| Layer | Job |
 |---|---|
-| جدول الملاحظات | بحث فوري، تصفية حسب المجال، وشارة لكل بطاقة |
-| الطب النفسي | أساسات: المزاج، الذهان، القلق، الصدمة، والطب النفسي الشرعي |
-| علم الإجرام | المدارس: كلاسيكي، وضعي، ضغط، ضبط، وسم، ونشاط روتيني |
-| دفترك | ملاحظات تُحفظ في المتصفح فقط. ما تطلع لأحد |
+| Notes table | Search, filter by field, open a card |
+| Criminology | Classical, strain, control, labeling, routine activity |
+| Forensic psychiatry | Only where it meets the court: fitness, risk, responsibility |
+| Your desk | Notes stay in this browser |
 
-## التشغيل
+Open `index.html`, or turn on GitHub Pages for `main` / root.
 
-افتح `index.html` في المتصفح، أو فعّل GitHub Pages على فرع `main` والمجلد الجذر.
-
-لا يحتاج بناء. لا خادم. لا حساب.
-
-## الملفات
-
-```
-index.html        الواجهة
-data/notes.json   البطاقات الدراسية
-app.js            البحث والدفتر المحلي
-styles.css        الهيئة
-```
-
-## حدّ
-
-هذا المشروع ملخص تعليمي لمفاهيم منشورة في الطب النفسي وعلم الإجرام. لا يشخّص، ولا يعالج، ولا يشرح أي طريقة لارتكاب جريمة. الحالات المذكورة أمثلة تركيبية للدراسة.
+No build. No server. No account.
 
 MIT · [4skylr](https://github.com/4skylr)
